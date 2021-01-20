@@ -1,0 +1,9 @@
+C:\Users\ADMIN\Desktop\QuickApp\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ADMIN\Desktop\QuickApp\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ADMIN\Desktop\QuickApp\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ADMIN\Desktop\QuickApp\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\QuickApp\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\QuickApp\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\QuickApp\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\QuickApp\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ADMIN\Desktop\QuickApp\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

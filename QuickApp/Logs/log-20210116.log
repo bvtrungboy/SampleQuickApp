@@ -1,0 +1,98 @@
+2021-01-16T15:08:21.6953999+07:00  [INF] Generating inbuilt accounts (d5983574)
+2021-01-16T15:08:26.2162519+07:00  [INF] Inbuilt account generation completed (a663d88d)
+2021-01-16T15:08:26.2528213+07:00  [INF] Seeding initial data (13b66d8a)
+2021-01-16T15:08:26.2769380+07:00  [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results. (f43d926b)
+2021-01-16T15:08:27.5876574+07:00  [INF] Seeding initial data completed (dcd778dd)
+2021-01-16T15:08:30.3782014+07:00  [INF] Starting IdentityServer4 version "3.1.3.0" (8add0571)
+2021-01-16T15:08:30.4250458+07:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2021-01-16T15:08:30.6490322+07:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2021-01-16T15:08:34.0322974+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-16T15:08:35.4278673+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-16T15:08:35.6214107+07:00  [INF] Content root path: "C:\Users\ADMIN\Desktop\QuickApp\QuickApp" (b5d60022)
+2021-01-16T15:09:21.2123383+07:00  [ERR] Compiling @angular/core : es2015 as esm2015
+ (5acd4031)
+2021-01-16T15:09:23.2531835+07:00  [ERR] Compiling @angular/animations : es2015 as esm2015
+ (9c30a060)
+2021-01-16T15:09:27.4714104+07:00  [ERR] Compiling ngx-bootstrap/chronos : es2015 as esm2015
+ (98d15a90)
+2021-01-16T15:09:34.8541127+07:00  [ERR] Compiling ngx-bootstrap/mini-ngrx : es2015 as esm2015
+ (5628358b)
+2021-01-16T15:09:40.4992843+07:00  [ERR] Compiling @angular/compiler/testing : es2015 as esm2015
+ (cffccbe5)
+2021-01-16T15:09:47.9517856+07:00  [ERR] Compiling ngx-bootstrap/locale : es2015 as esm2015
+ (293b56ee)
+2021-01-16T15:09:53.8788658+07:00  [ERR] Compiling @angular/common : es2015 as esm2015
+ (ebfa3907)
+2021-01-16T15:09:59.0579834+07:00  [ERR] Compiling ngx-bootstrap/utils : es2015 as esm2015
+Compiling @angular/animations/browser : es2015 as esm2015
+Compiling @angular/core/testing : es2015 as esm2015
+ (f7f55166)
+2021-01-16T15:10:00.1739877+07:00  [ERR] Compiling ngx-bootstrap/collapse : es2015 as esm2015
+ (23fdee6b)
+2021-01-16T15:10:00.6208620+07:00  [ERR] Compiling @angular/forms : es2015 as esm2015
+ (a5e7a4d2)
+2021-01-16T15:10:03.8514046+07:00  [ERR] Compiling ngx-bootstrap/positioning : es2015 as esm2015
+ (dcb442f5)
+2021-01-16T15:10:05.0377135+07:00  [ERR] Compiling @angular/platform-browser : es2015 as esm2015
+ (a01bc7a9)
+2021-01-16T15:10:07.0392454+07:00  [ERR] Compiling @angular/common/http : es2015 as esm2015
+ (934ad769)
+2021-01-16T15:10:09.2405195+07:00  [ERR] Compiling ngx-bootstrap/component-loader : es2015 as esm2015
+ (476fc570)
+2021-01-16T15:10:12.2466118+07:00  [ERR] Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+ (00ea327c)
+2021-01-16T15:10:14.3210408+07:00  [ERR] Compiling @angular/platform-browser/testing : es2015 as esm2015
+ (6bd603fc)
+2021-01-16T15:10:16.4830979+07:00  [ERR] Compiling @angular/common/testing : es2015 as esm2015
+ (1ec8d641)
+2021-01-16T15:10:22.8905610+07:00  [ERR] Compiling @angular/router : es2015 as esm2015
+ (ede1c3a1)
+2021-01-16T15:10:23.8279060+07:00  [ERR] Compiling @angular/animations/browser/testing : es2015 as esm2015
+ (7908cad6)
+2021-01-16T15:10:24.1710689+07:00  [ERR] Compiling @angular/common/http/testing : es2015 as esm2015
+ (2d7bf949)
+2021-01-16T15:10:27.1374419+07:00  [ERR] Compiling @angular/platform-browser/animations : es2015 as esm2015
+ (8689353d)
+2021-01-16T15:10:28.0823674+07:00  [ERR] Compiling @angular/platform-browser-dynamic/testing : es2015 as esm2015
+ (e2511cce)
+2021-01-16T15:10:28.8935042+07:00  [ERR] Compiling @angular/router/testing : es2015 as esm2015
+ (d0879ba2)
+2021-01-16T15:10:31.5940752+07:00  [ERR] Compiling @ng-select/ng-select : es2015 as esm2015
+ (9cf45cc3)
+2021-01-16T15:10:32.4772735+07:00  [ERR] Compiling @ngx-translate/core : es2015 as esm2015
+ (fb8db328)
+2021-01-16T15:10:33.2109395+07:00  [ERR] Compiling @swimlane/ngx-datatable : es2015 as esm2015
+ (de94b4fb)
+2021-01-16T15:10:41.0627550+07:00  [ERR] Compiling angular-oauth2-oidc : es2015 as esm2015
+ (cf00f9fd)
+2021-01-16T15:10:43.2872943+07:00  [ERR] Compiling ng2-charts : es2015 as esm2015
+ (24251a2c)
+2021-01-16T15:11:33.6297862+07:00  [ERR] Compiling ngx-bootstrap/accordion : es2015 as esm2015
+ (22b414b6)
+2021-01-16T15:11:33.6441321+07:00  [ERR] Compiling ngx-bootstrap/alert : es2015 as esm2015
+ (29bd0a10)
+2021-01-16T15:11:36.7075513+07:00 80000002-0000-f700-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-16T15:16:07.3508407+07:00  [INF] Starting IdentityServer4 version "3.1.3.0" (8add0571)
+2021-01-16T15:16:07.3887430+07:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2021-01-16T15:16:07.4084096+07:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2021-01-16T15:16:07.8293392+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-01-16T15:16:07.8592573+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-01-16T15:16:07.8923948+07:00  [INF] Content root path: "C:\Users\ADMIN\Desktop\QuickApp\QuickApp" (b5d60022)
+2021-01-16T15:18:43.0306369+07:00 80000002-0001-fe00-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration" (f7642de5)
+2021-01-16T15:18:43.2442026+07:00 80000004-0001-fe00-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks" (f7642de5)
+2021-01-16T15:18:43.3457659+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token" (f7642de5)
+2021-01-16T15:18:44.2260827+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Credentials validated for username: "admin" (cb811aa7)
+2021-01-16T15:18:44.3157841+07:00 80000006-0001-fe00-b63f-84710c7967bb [INF] Token request validation success, TokenRequestValidationLog { ClientId: "quickapp_spa", ClientName: null, GrantType: "password", Scopes: "email offline_access openid phone profile quickapp_api roles", AuthorizationCode: null, RefreshToken: null, UserName: "admin", AuthenticationContextReferenceClasses: null, Tenant: null, IdP: null, Raw: [("username": "admin"), ("password": "***REDACTED***"), ("client_id": "quickapp_spa"), ("grant_type": "password"), ("scope": "openid email phone profile offline_access roles quickapp_api")] } (3a073258)

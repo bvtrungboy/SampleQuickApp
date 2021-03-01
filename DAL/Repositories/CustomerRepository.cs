@@ -25,7 +25,6 @@ namespace DAL.Repositories
             throw new NotImplementedException();
         }
 
-
         public IEnumerable<Customer> GetAllCustomersData()
         {
             return _appContext.Customers
@@ -35,8 +34,18 @@ namespace DAL.Repositories
                 .ToList();
         }
 
+        public Customer GetCustomer(int id)
+        {
+            return _appContext.Customers
+                .Include(c => c.Orders).ThenInclude(o => o.OrderDetails).ThenInclude(d => d.Product)
+                .Include(c => c.Orders).ThenInclude(o => o.Cashier)
+                .FirstOrDefault(x => x.Id == id);
+        }
 
-
+        public void AddNewItem(Customer customer)
+        {
+            _appContext.Customers.Add(customer);
+        }
         private ApplicationDbContext _appContext => (ApplicationDbContext)_context;
     }
 }

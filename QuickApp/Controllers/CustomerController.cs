@@ -13,6 +13,7 @@ using QuickApp.ViewModels;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
 using QuickApp.Helpers;
+using DAL.Models;
 
 namespace QuickApp.Controllers
 {
@@ -43,21 +44,17 @@ namespace QuickApp.Controllers
             return Ok(_mapper.Map<IEnumerable<CustomerViewModel>>(allCustomers));
         }
 
-
-
         [HttpGet("throw")]
         public IEnumerable<CustomerViewModel> Throw()
         {
             throw new InvalidOperationException("This is a test exception: " + DateTime.Now);
         }
 
-
-
         [HttpGet("email")]
         public async Task<string> Email()
         {
             string recepientName = "QickApp Tester"; //         <===== Put the recepient's name here
-            string recepientEmail = "test@ebenmonney.com"; //   <===== Put the recepient's email here
+            string recepientEmail = "bvtrungboy@gmail.com"; //   <===== Put the recepient's email here
 
             string message = EmailTemplates.GetTestEmail(recepientName, DateTime.UtcNow);
 
@@ -69,32 +66,30 @@ namespace QuickApp.Controllers
             return "Error: " + errorMsg;
         }
 
-
-
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value: " + id;
+            var Customers = _unitOfWork.Customers.GetCustomer(id);
+           return Ok(_mapper.Map<CustomerViewModel>(Customers));
         }
-
-
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Customer value)
         {
+            value.CreatedDate = DateTime.Now;
+            value.UpdatedDate = DateTime.Now;
+            value.DateModified = DateTime.Now;
+           _unitOfWork.Customers.AddNewItem(value);
+            _unitOfWork.SaveChanges();
         }
-
-
 
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
         }
-
-
 
         // DELETE api/values/5
         [HttpDelete("{id}")]

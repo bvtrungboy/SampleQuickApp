@@ -20,7 +20,7 @@ namespace DAL
         ICustomerRepository _customers;
         IProductRepository _products;
         IOrdersRepository _orders;
-
+        IAdvertisementRepository _advertisement;
 
 
         public UnitOfWork(ApplicationDbContext context)
@@ -67,8 +67,16 @@ namespace DAL
             }
         }
 
+        public IAdvertisementRepository Advertisement
+        {
+            get
+            {
+                if (_advertisement == null)
+                    _advertisement = new AdvertisementRepository(_context);
 
-
+                return _advertisement;
+            }
+        }
 
         public int SaveChanges()
         {

@@ -24,8 +24,8 @@ namespace DAL
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
-
-
+        public DbSet<Advertisement> Advertisements { get; set; } 
+        
 
         public ApplicationDbContext(DbContextOptions options) : base(options)
         { }

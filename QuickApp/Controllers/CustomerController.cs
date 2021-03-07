@@ -78,10 +78,7 @@ namespace QuickApp.Controllers
         [HttpPost]
         public void Post([FromBody]Customer value)
         {
-            value.CreatedDate = DateTime.Now;
-            value.UpdatedDate = DateTime.Now;
-            value.DateModified = DateTime.Now;
-           _unitOfWork.Customers.AddNewItem(value);
+           _unitOfWork.Customers.Add(value);
             _unitOfWork.SaveChanges();
         }
 
@@ -94,8 +91,6 @@ namespace QuickApp.Controllers
             {
                 cus.Name = value.Name;
                 cus.PhoneNumber = value.PhoneNumber;
-                cus.UpdatedDate = DateTime.Now;
-                cus.DateModified = DateTime.Now;
                 _unitOfWork.Customers.Update(cus);
                 _unitOfWork.SaveChanges();
             }

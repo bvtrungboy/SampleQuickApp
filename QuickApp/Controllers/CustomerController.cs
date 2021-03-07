@@ -87,14 +87,30 @@ namespace QuickApp.Controllers
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]Customer value)
         {
+            var cus = _unitOfWork.Customers.GetCustomer(id);
+            if (cus != null)
+            {
+                cus.Name = value.Name;
+                cus.PhoneNumber = value.PhoneNumber;
+                cus.UpdatedDate = DateTime.Now;
+                cus.DateModified = DateTime.Now;
+                _unitOfWork.Customers.Update(cus);
+                _unitOfWork.SaveChanges();
+            }
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var cus = _unitOfWork.Customers.GetCustomer(id);
+            if (cus != null)
+            {
+                _unitOfWork.Customers.Remove(cus);
+                _unitOfWork.SaveChanges();
+            }
         }
     }
 }
